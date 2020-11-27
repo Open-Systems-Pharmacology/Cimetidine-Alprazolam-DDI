@@ -1,0 +1,5229 @@
+{
+  "Version": 77,
+  "Individuals": [
+    {
+      "Name": "European (P-gp modified, CYP3A4 36 h)",
+      "Seed": 17189110,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 4.32,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "P-gp",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 1.41
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.56
+            }
+          ],
+          "Ontogeny": {
+            "Name": "P-gp",
+            "Table": {
+              "Name": "TableFormula",
+              "Percentile": 0.0,
+              "DistributionMetaData": [
+                {
+                  "Mean": 1E-14,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 1.915059E-05,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 5.486795E-05,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0001571905,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0004502473,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.001288958,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.00368424,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.01048397,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.02946235,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.0800178,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.1994918,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.4165768,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.6716791,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.8542612,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.943803,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9796414,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.992799,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9974749,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9991173,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9996917,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9998924,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9999624,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 0.9999869,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                },
+                {
+                  "Mean": 1.0,
+                  "Deviation": 1.6,
+                  "Distribution": "LogNormal"
+                }
+              ],
+              "XName": "Postmenstrual age",
+              "XDimension": "Age in years",
+              "XUnit": "year(s)",
+              "YName": "P-gp",
+              "YDimension": "Fraction",
+              "UseDerivedValues": false,
+              "Points": [
+                {
+                  "X": 0.0,
+                  "Y": 1E-14,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.08333334,
+                  "Y": 1.915059E-05,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.1666667,
+                  "Y": 5.486795E-05,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.25,
+                  "Y": 0.0001571905,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.3333333,
+                  "Y": 0.0004502473,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.4166667,
+                  "Y": 0.001288958,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.5,
+                  "Y": 0.00368424,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.5833333,
+                  "Y": 0.01048397,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.6666667,
+                  "Y": 0.02946235,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.75,
+                  "Y": 0.0800178,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.8333333,
+                  "Y": 0.1994918,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 0.9166667,
+                  "Y": 0.4165768,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.0,
+                  "Y": 0.6716791,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.083333,
+                  "Y": 0.8542612,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.166667,
+                  "Y": 0.943803,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.25,
+                  "Y": 0.9796414,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.333333,
+                  "Y": 0.992799,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.416667,
+                  "Y": 0.9974749,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.5,
+                  "Y": 0.9991173,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.583333,
+                  "Y": 0.9996917,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.666667,
+                  "Y": 0.9998924,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.75,
+                  "Y": 0.9999624,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 1.833333,
+                  "Y": 0.9999869,
+                  "RestartSolver": false
+                },
+                {
+                  "X": 3.333333,
+                  "Y": 1.0,
+                  "RestartSolver": false
+                }
+              ]
+            }
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.41,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "ATP1A2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "Value": 0.0062154033171
+            },
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0508741242
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.3179118843
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0158938619
+            },
+            {
+              "Name": "Periportal",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 0.0223784807
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0272345453
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.7034193524
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.0073903254795
+            },
+            {
+              "Name": "Skin",
+              "Value": 0.0389467988
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.0103243118
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0309435884
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0501579923
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.0786998764
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.0786998764
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.47661714,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "UGT1A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 2.32,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "GABRG2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0877710492,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C8",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.0138116248
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2C8"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 2.56,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 23.000001425,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "OCT1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.02439093
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.0135293069
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0035130263768
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0067231912312
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.031737522
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0146483426
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0407525944
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0065687827703
+            },
+            {
+              "Name": "Skin",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0119814482
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0050234148247
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0093257582694
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0245459351
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0315629708
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0245459351
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0245459351
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0245459351
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0245459351
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0245459351
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.0315629708
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.0315629708
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.0315629708
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.0315629708
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.16465,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "OAT3",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00061613691932
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00016503667482
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00016503667482
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.0917,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        },
+        {
+          "Name": "MATE1",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.4295320813
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3637328555
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 0.13257,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "t1/2 (intestine)",
+              "Value": 23.0,
+              "Unit": "h"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Cimetidine",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 1.655,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.78,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Taylor 1978"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 24.0,
+              "Unit": "mg/ml",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Avdeef 2001"
+              }
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.8,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Avdeef 2001"
+              }
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 8.7196061807E-07,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 6.93,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Avdeef 2001"
+          }
+        },
+        {
+          "Type": "Acid",
+          "Pka": 13.38,
+          "ValueOrigin": {
+            "Source": "Publication",
+            "Description": "Avdeef 2001"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "LiverClearance",
+          "DataSource": "Somogyi 1983",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.78
+            },
+            {
+              "Name": "Lipophilicity (experiment)",
+              "Value": 1.655,
+              "Unit": "Log Units"
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 0.0,
+              "Unit": "ml/min/kg"
+            },
+            {
+              "Name": "Specific clearance",
+              "Value": 0.1600808777,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Paper",
+          "Molecule": "MATE1",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 8.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 32.371673382,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Paper",
+          "Molecule": "OAT3",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 149.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Tahara 2005"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 57506485.67,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "ActiveTransportSpecific_MM",
+          "DataSource": "Paper",
+          "Molecule": "OCT1",
+          "Parameters": [
+            {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
+              "Name": "Km",
+              "Value": 2600.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Umehara 2007"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 86599.4219923521,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Ito 2012",
+          "Molecule": "OCT1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 104.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Ito 2012"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Ito 2012",
+          "Molecule": "OCT2",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 124.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Ito 2012"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Ito 2012",
+          "Molecule": "MATE1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 3.8,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Other",
+                "Description": "NBI measurement"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Wrighton 1994",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 268.0,
+              "Unit": "µmol/l"
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 252.34,
+          "Unit": "g/mol",
+          "ValueOrigin": {
+            "Source": "Database",
+            "Description": "Drugbank"
+          }
+        }
+      ]
+    },
+    {
+      "Name": "Alprazolam",
+      "IsSmallMolecule": true,
+      "Lipophilicity": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.0799268917,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.233,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVivo",
+                "Description": "PMID: 1880224"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 40.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "IntestinalPermeability": [
+        {
+          "Name": "Optimized",
+          "Parameters": [
+            {
+              "Name": "Specific intestinal permeability (transcellular)",
+              "Value": 7.6146060669,
+              "Unit": "cm/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 2.4,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "alpha-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.131,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 269.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.8066945978,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 0.5461456402,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "MetabolizationLiverMicrosomes_MM",
+          "DataSource": "4-OH pathway",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 2.23,
+              "Unit": "nmol/min/mg mic. protein",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 704.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "PMID: 11745908"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 13.7322820855,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 1.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 308.765,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "Tablet",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 1.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 10.0
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    },
+    {
+      "Name": "Xanax_IR",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 12.1060809908,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 0.92,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3.4' on 2020-03-25 13:19"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "300 mg QID (Abernethy 1983)",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 155.835,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 1.41,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 144.165,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 4.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 6.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "1 mg po",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 1.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "1 mg po @ 12h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 1.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 12.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "200/400 mg QID (Pourbaix 1985)",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 103.89,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 1.41,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 96.11,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 15.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 103.89,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 1.41,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 96.11,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 5.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 15.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 3",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 207.78,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 1.41,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 192.22,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 15.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 15.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 4",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 103.89,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 1.41,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 96.11,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 10.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 15.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    },
+    {
+      "Name": "0.5 mg po TID start 0h",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_8_8_8",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 0.5,
+          "Unit": "mg"
+        },
+        {
+          "Name": "End time",
+          "Value": 176.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    },
+    {
+      "Name": "0.5 mg po TID start 168h",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 0.5,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 168.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Abernethy 1983 - Alprazolam 1 mg control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Abernethy 1983 - Alprazolam control - Alprazolam - PO - 1 mg - Plasma - indiv."
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|1 mg po|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP2C8"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "1 mg po",
+            "Formulations": [
+              {
+                "Name": "Xanax_IR",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.231698588,
+              "Max": 5.18181372,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 5.071289,
+              "Max": 15.0266533,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Abernethy 1983 - Alprazolam 1 mg control|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Abernethy 1983 - Alprazolam control - Alprazolam - PO - 1 mg - Plasma - indiv.-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Abernethy 1983 - Alprazolam control - Alprazolam - PO - 1 mg - Plasma - indiv.|Time",
+              "Y": "Abernethy 1983 - Alprazolam control - Alprazolam - PO - 1 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Abernethy 1983 - Alprazolam 1 mg control",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Alprazolam-DDI\nAbernethy 1983 - Alprazolam 1 mg control\n2020-11-26 17:30"
+        }
+      ]
+    },
+    {
+      "Name": "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv."
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 84.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|1 mg po @ 12h|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300 mg QID (Abernethy 1983)|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300 mg QID (Abernethy 1983)|Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300 mg QID (Abernethy 1983)|Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300 mg QID (Abernethy 1983)|Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300 mg QID (Abernethy 1983)|Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300 mg QID (Abernethy 1983)|Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300 mg QID (Abernethy 1983)|Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|300 mg QID (Abernethy 1983)|Tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP2C8"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "1 mg po @ 12h",
+            "Formulations": [
+              {
+                "Name": "Xanax_IR",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Cimetidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-Somogyi 1983",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "MoleculeName": "P-gp"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "OCT1-Paper",
+              "MoleculeName": "OCT1"
+            },
+            {
+              "Name": "OAT3-Paper",
+              "MoleculeName": "OAT3"
+            },
+            {
+              "Name": "MATE1-Paper",
+              "MoleculeName": "MATE1"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "300 mg QID (Abernethy 1983)",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|Time",
+              "Y": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Alprazolam-DDI\nAbernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID\n2020-11-27 11:44"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Wrighton 1994",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Cimetidine"
+        }
+      ]
+    },
+    {
+      "Name": "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Pourbaix 1985 - Alprazolam control - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 240.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 0h|Xanax_IR|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP2C8"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "0.5 mg po TID start 0h",
+            "Formulations": [
+              {
+                "Name": "Xanax_IR",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 168.0,
+              "Max": 240.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Pourbaix 1985 - Alprazolam 0.5 mg TID control|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pourbaix 1985 - Alprazolam control - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Pourbaix 1985 - Alprazolam control - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Pourbaix 1985 - Alprazolam control - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Pourbaix 1985 - Alprazolam 0.5 mg TID control",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Alprazolam-DDI\nPourbaix 1985 - Alprazolam 0.5 mg TID control\n2020-11-26 18:08"
+        }
+      ]
+    },
+    {
+      "Name": "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 336.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 336.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 338.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 338.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 408.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|0.5 mg po TID start 168h|Xanax_IR|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_100|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_101|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_102|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_103|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_104|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_105|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_106|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_107|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_108|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_109|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_110|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_111|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_112|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_113|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_114|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_115|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_116|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_117|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_118|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_119|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_120|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_29|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_30|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_31|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_32|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_33|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_34|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_35|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_36|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_37|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_38|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_39|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_40|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_41|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_42|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_43|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_44|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_45|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_46|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_47|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_48|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_49|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_50|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_51|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_52|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_53|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_54|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_55|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_56|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_57|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_58|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_59|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_60|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_61|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_62|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_63|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_64|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_65|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_66|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_67|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_68|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_69|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_70|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_71|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_72|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_73|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_74|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_75|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_76|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_77|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_78|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_79|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_80|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_81|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_82|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_83|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_84|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_85|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_86|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_87|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_88|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_89|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_90|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_91|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_92|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_93|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_94|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_95|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_96|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_97|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_98|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|200/400 mg QID (Pourbaix 1985)|Tablet|Application_99|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (interstitial->intracellular)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Alprazolam|P (intracellular->interstitial)",
+          "Value": 0.2587408658,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Alprazolam",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-alpha-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP3A4-4-OH pathway",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CYP2C8"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "0.5 mg po TID start 168h",
+            "Formulations": [
+              {
+                "Name": "Xanax_IR",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Cimetidine",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-Somogyi 1983",
+              "SystemicProcessType": "Hepatic"
+            },
+            {
+              "MoleculeName": "P-gp"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "OCT1-Paper",
+              "MoleculeName": "OCT1"
+            },
+            {
+              "Name": "OAT3-Paper",
+              "MoleculeName": "OAT3"
+            },
+            {
+              "Name": "MATE1-Paper",
+              "MoleculeName": "MATE1"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "200/400 mg QID (Pourbaix 1985)",
+            "Formulations": [
+              {
+                "Name": "Tablet",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 336.0,
+              "Max": 408.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Alprazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID|Organism|PeripheralVenousBlood|Alprazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID",
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Alprazolam-DDI\nPourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID\n2020-11-26 20:17"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Wrighton 1994",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Cimetidine"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "Abernethy 1983 - Alprazolam control - Alprazolam - PO - 1 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1331.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Abernethy 1983"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/6137021/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig.2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Alprazolam control"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 9.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Alprazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Abernethy 1983 - Alprazolam control - Alprazolam - PO - 1 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 308.77
+          },
+          "Values": [
+            0.5370785,
+            5.264208,
+            8.050113,
+            5.679832,
+            5.364521,
+            6.529522,
+            7.7481,
+            6.781665,
+            5.823342,
+            5.499313,
+            4.574027,
+            1.833625,
+            0.98405087,
+            0.4449495
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Abernethy 1983 - Alprazolam control - Alprazolam - PO - 1 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          2.5,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0,
+          24.0,
+          36.0,
+          48.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1332.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Abernethy 1983"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/6137021/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig.2"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Alprazoam + Cimetidine"
+        },
+        {
+          "Name": "Data type",
+          "Value": "individual"
+        },
+        {
+          "Name": "N",
+          "Value": 9.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Alprazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "1 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 12.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 308.77
+          },
+          "Values": [
+            0.4247744,
+            0.9747446,
+            3.051624,
+            3.644355,
+            4.666553,
+            14.2438,
+            14.24222,
+            11.4076,
+            9.985135,
+            10.63765,
+            7.178743,
+            7.131973,
+            7.267382,
+            3.73004031,
+            3.062201,
+            1.54177,
+            0.6453949
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          12.08,
+          12.17,
+          12.25,
+          12.5,
+          12.75,
+          13.0,
+          14.0,
+          14.5,
+          15.0,
+          16.0,
+          18.0,
+          20.0,
+          24.0,
+          36.0,
+          48.0,
+          60.0,
+          84.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Pourbaix 1985 - Alprazolam control - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1339.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Pourbaix 1985"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/2864320/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig.1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Alprazolam control"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Alprazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "(S0-T8-R21)-168"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Pourbaix 1985 - Alprazolam control - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 308.77
+              },
+              "Values": [
+                "NaN",
+                0.003691704,
+                0.001812007,
+                0.002819255,
+                0.00147589191,
+                0.001275688,
+                0.001342793,
+                0.001140897,
+                0.00114089588,
+                0.001409343,
+                0.0006034372,
+                0.000469780876,
+                "NaN",
+                "NaN",
+                "NaN"
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Pourbaix 1985 - Alprazolam control - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 308.77
+          },
+          "Values": [
+            10.40229,
+            12.54533,
+            13.07825,
+            16.69435,
+            16.01417,
+            14.52978,
+            11.22431,
+            9.66375,
+            7.012969,
+            5.032989,
+            3.573218,
+            2.473936,
+            0.8722614,
+            0.2605767,
+            0.2684462
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Pourbaix 1985 - Alprazolam control - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          168.0,
+          168.5,
+          169.0,
+          170.0,
+          171.0,
+          172.0,
+          174.0,
+          176.0,
+          180.0,
+          192.0,
+          198.0,
+          201.0,
+          216.0,
+          225.0,
+          240.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1340.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Pourbaix 1985"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/2864320/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig.1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Alprazoam + Cimetidine"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 8.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Alprazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "(S168-T5-R3)-(S192-T5-R3)-(S216-T5-R3)-(S240-T5-R3)-(S264-T5-R3)-(S288-T5-R3)-(S312-T5-R3)-336"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 308.77
+              },
+              "Values": [
+                "NaN",
+                0.001677788,
+                0.00228179176,
+                0.00342269312,
+                0.002281794,
+                0.001812014,
+                0.00154356589,
+                0.00114089809,
+                0.001275687,
+                0.001544132,
+                0.00127512,
+                0.001342798,
+                0.0006705489,
+                0.0005368927,
+                0.000537459331,
+                0.000335557765
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 308.77
+          },
+          "Values": [
+            14.49666,
+            16.90928,
+            19.11943,
+            31.1244621,
+            27.02216,
+            21.77839,
+            17.66759,
+            15.1680307,
+            11.845,
+            8.858348,
+            6.526693,
+            5.964303,
+            4.001637,
+            2.751385,
+            1.13246,
+            0.6716822
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          336.0,
+          336.5,
+          337.0,
+          338.0,
+          339.0,
+          340.0,
+          342.0,
+          344.0,
+          348.0,
+          360.0,
+          366.0,
+          369.0,
+          371.0,
+          384.0,
+          393.0,
+          408.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ]
+}
