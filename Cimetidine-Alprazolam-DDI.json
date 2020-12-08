@@ -2215,6 +2215,21 @@
               "ValueOrigin": {
                 "Source": "Unknown"
               }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 22.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 8.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         }
@@ -2517,8 +2532,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": -0.231698588,
-              "Max": 5.18181372,
+              "Min": -0.2316986,
+              "Max": 5.181814,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -2531,7 +2546,7 @@
               "GridLines": false,
               "Visible": true,
               "Min": 5.071289,
-              "Max": 15.0266533,
+              "Max": 15.02665,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -4567,7 +4582,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Cimetidine-Alprazolam-DDI\nPourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID\n2020-11-26 20:17"
+          "OriginText": "Cimetidine-Alprazolam-DDI\nPourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID\n2020-12-08 11:38"
         }
       ],
       "Interactions": [
