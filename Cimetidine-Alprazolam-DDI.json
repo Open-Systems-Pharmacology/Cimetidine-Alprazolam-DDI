@@ -3583,7 +3583,7 @@
       "Name": "Abernethy 1983 - Alprazolam 1 mg + 300 mg cimetidine QID",
       "Model": "4Comp",
       "ObservedData": [
-        "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv."
+        "Abernethy 1983 - Alprazolam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv."
       ],
       "Solver": {},
       "OutputSchema": [
@@ -3991,9 +3991,9 @@
               }
             },
             {
-              "Name": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|Time",
-              "Y": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "Name": "Abernethy 1983 - Alprazolam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Abernethy 1983 - Alprazolam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|Time",
+              "Y": "Abernethy 1983 - Alprazolam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -4487,7 +4487,7 @@
       "Name": "Pourbaix 1985 - alprazolam 0.5 mg TID + cimetidine 200/400 mg QID",
       "Model": "4Comp",
       "ObservedData": [
-        "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)"
+        "Pourbaix 1985 - Alprazolam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -5590,9 +5590,9 @@
               }
             },
             {
-              "Name": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|Time",
-              "Y": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
+              "Name": "Pourbaix 1985 - Alprazolam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)-Alprazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Pourbaix 1985 - Alprazolam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Pourbaix 1985 - Alprazolam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -5763,7 +5763,7 @@
       }
     },
     {
-      "Name": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.",
+      "Name": "Abernethy 1983 - Alprazolam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -5787,7 +5787,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "Alprazoam + Cimetidine"
+          "Value": "Alprazolam + Cimetidine"
         },
         {
           "Name": "Data type",
@@ -5843,7 +5843,7 @@
           "Name": "Avg",
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
+            "Path": "Abernethy 1983 - Alprazolam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -5878,7 +5878,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Abernethy 1983 - Alprazoam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|Time",
+          "Path": "Abernethy 1983 - Alprazolam + Cimetidine - Alprazolam - PO - 1 mg - Plasma - indiv.|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -6087,7 +6087,7 @@
       }
     },
     {
-      "Name": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)",
+      "Name": "Pourbaix 1985 - Alprazolam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)",
       "ExtendedProperties": [
         {
           "Name": "DB Version",
@@ -6111,7 +6111,7 @@
         },
         {
           "Name": "Grouping",
-          "Value": "Alprazoam + Cimetidine"
+          "Value": "Alprazolam + Cimetidine"
         },
         {
           "Name": "Data type",
@@ -6170,7 +6170,7 @@
               "Name": "Var",
               "QuantityInfo": {
                 "Name": "Var",
-                "Path": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticStdDev"
+                "Path": "Pourbaix 1985 - Alprazolam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -6202,7 +6202,7 @@
           ],
           "QuantityInfo": {
             "Name": "Avg",
-            "Path": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
+            "Path": "Pourbaix 1985 - Alprazolam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Alprazolam|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -6236,7 +6236,7 @@
         "Name": "Time",
         "QuantityInfo": {
           "Name": "Time",
-          "Path": "Pourbaix 1985 - Alprazoam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|Time",
+          "Path": "Pourbaix 1985 - Alprazolam + Cimetidine - Alprazolam - PO - 0.5 mg - Plasma - agg. (n=8)|Time",
           "Type": "Time"
         },
         "DataInfo": {
